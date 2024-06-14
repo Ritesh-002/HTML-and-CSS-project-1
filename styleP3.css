@@ -1,0 +1,82 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+        font-family: 'Poppings', sans-serif;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 75px;
+        background-repeat: no-repeat;
+        /* background-image: url("https://c4.wallpaperflare.com/wallpaper/771/93/160/food-burger-hd-wallpaper-thumb.jpg"); */
+        background-size: cover; 
+        background-image: url("https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    }
+
+    nav{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        margin-top: 25px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    nav .navigations ul{
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+    }
+    .navigations ul a{
+        text-decoration: none;
+        color: rgb(227, 227, 227);
+    }
+    .navigations ul a:hover{
+        text-decoration: none;
+        color: rgb(137, 255, 255);
+    }
+    .order-button{
+        width: 100px;
+        height: 35px;
+        font-size:16px;
+        font-weight: bold;
+        background-color:rgb(193, 87, 87);
+        color: white;
+        border-color: white;
+    }
+    .order-button:hover{
+        background-color: rgb(225, 225, 225);
+        color: black;
+    }
+    section div p{
+        color: rgb(216, 216, 205);
+        font-weight: bolder;
+        font-size: 60px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    .menu-button{
+        width: 150px;
+        height: 35px;
+        font-size:16px;
+        font-weight: bold;
+        background-color:rgb(193, 87, 87);
+        color: white;
+        border-color: white;
+    }
+    .menu-button:hover{
+        background-color: rgb(225, 225, 225);
+        color: black;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    footer img{
+        margin-left: 1035px;
+        padding-right: 0px;
+        padding-bottom: 15px;
+    }
